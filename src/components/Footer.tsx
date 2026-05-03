@@ -1,14 +1,12 @@
 import logo from "@/assets/logo.png";
+
+export function Footer() {
   return (
     <footer className="bg-coffee-dark py-12 text-cream/80">
       <div className="mx-auto grid max-w-7xl gap-8 px-6 md:grid-cols-3">
         <div>
-          <div className="flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-full bg-gold text-coffee-dark font-display text-lg">
-              L
-            </span>
-            <span className="font-display text-xl font-bold text-cream">Le Cafe</span>
-          </div>
+          <img src={logo} alt="le Café" width={160} height={64} loading="lazy" className="h-16 w-auto brightness-0 invert opacity-90" />
+        </div>
           <p className="mt-4 text-sm">
             Where every sip tells a story. Hand-roasted coffee and comfort food since 2012.
           </p>
