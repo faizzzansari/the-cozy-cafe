@@ -33,10 +33,14 @@ export const Route = createRootRoute({
       { name: "description", content: "Le Cafe serves freshly brewed coffee, wood-fired pizzas and handcrafted desserts in a cozy, modern space." },
       { name: "author", content: "Le Cafe" },
       { property: "og:title", content: "Le Cafe — Artisan Coffee & Comfort Food" },
-      { property: "og:description", content: "Freshly brewed coffee, wood-fired pizzas and handcrafted desserts." },
+      { property: "og:description", content: "Le Cafe serves freshly brewed coffee, wood-fired pizzas and handcrafted desserts in a cozy, modern space." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Le Cafe — Artisan Coffee & Comfort Food" },
+      { name: "twitter:description", content: "Le Cafe serves freshly brewed coffee, wood-fired pizzas and handcrafted desserts in a cozy, modern space." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/257a6314-f36b-4b8a-af44-140059f3c50f/id-preview-138bcd32--30756fff-217d-46a0-bb3b-0d9ab0113c06.lovable.app-1777839362078.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/257a6314-f36b-4b8a-af44-140059f3c50f/id-preview-138bcd32--30756fff-217d-46a0-bb3b-0d9ab0113c06.lovable.app-1777839362078.png" },
     ],
     links: [
       {
