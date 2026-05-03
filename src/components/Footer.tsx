@@ -1,4 +1,4 @@
-export function Footer() {
+import logo from "@/assets/logo.png";
   return (
     <footer className="bg-coffee-dark py-12 text-cream/80">
       <div className="mx-auto grid max-w-7xl gap-8 px-6 md:grid-cols-3">
