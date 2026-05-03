@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/logo.png";
 
 const links = [
   { href: "#home", label: "Home" },
@@ -28,12 +29,7 @@ export function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <a href="#home" className="flex items-center gap-2">
-          <span className="flex h-9 w-9 items-center justify-center rounded-full bg-coffee text-cream font-display text-lg">
-            L
-          </span>
-          <span className="font-display text-xl font-bold text-coffee-dark">
-            Le Cafe
-          </span>
+          <img src={logo} alt="le Café — all day dining" width={140} height={56} className="h-12 w-auto" />
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
