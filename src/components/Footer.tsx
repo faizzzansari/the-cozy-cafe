@@ -6,7 +6,6 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-8 px-6 md:grid-cols-3">
         <div>
           <img src={logo} alt="le Café" width={160} height={64} loading="lazy" className="h-16 w-auto brightness-0 invert opacity-90" />
-        </div>
           <p className="mt-4 text-sm">
             Where every sip tells a story. Hand-roasted coffee and comfort food since 2012.
           </p>
