@@ -30,9 +30,10 @@ export function Hero() {
             tells a story.
           </span>
         </h1>
-        <p className="mt-6 max-w-xl text-lg text-white/85 md:text-xl">
-          Hand-roasted coffee, wood-fired pizzas and decadent desserts —
-          crafted with love in the heart of the city.
+        <p className="mt-6 max-w-xl rounded-xl border border-gold/30 bg-black/40 px-5 py-3 text-lg font-medium text-cream shadow-lg backdrop-blur-md md:text-xl">
+          Hand-roasted <span className="text-gold">coffee</span>, wood-fired{" "}
+          <span className="text-gold">pizzas</span> and decadent{" "}
+          <span className="text-gold">desserts</span> — crafted with love in the heart of the city.
         </p>
         <div className="mt-10 flex flex-wrap gap-4">
           <a
