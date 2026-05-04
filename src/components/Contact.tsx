@@ -49,7 +49,7 @@ export function Contact() {
           <div className="overflow-hidden rounded-xl shadow-warm">
             <iframe
               title="Le Cafe Location"
-              src={`https://www.google.com/maps?q=${encodeURIComponent(address)}&output=embed`}
+              src="https://www.google.com/maps?q=Le+Cafe+Best+European+Cafe+Chembur+Mumbai&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: 420 }}
