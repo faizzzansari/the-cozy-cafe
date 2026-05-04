@@ -56,7 +56,7 @@ export function Menu() {
                     {item.name}
                   </h3>
                   <span className="shrink-0 rounded-full bg-gold/20 px-3 py-1 text-sm font-bold text-coffee-dark">
-                    ${item.price.toFixed(2)}
+                    ₹{item.price.toFixed(2)}
                   </span>
                 </div>
                 <p className="mt-2 text-sm text-muted-foreground">
