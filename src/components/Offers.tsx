@@ -15,7 +15,7 @@ const offers = [
     badge: "Happy Hours",
     title: "30% Off Desserts",
     desc: "Sweet deals every weekday from 4pm to 6pm. Don't miss out.",
-    accent: "from-coffee-dark to-coffee",
+    accent: "from-cream to-gold-soft",
   },
 ];
 

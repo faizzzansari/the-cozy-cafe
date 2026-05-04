@@ -21,7 +21,7 @@ export function Hero() {
       <div className="pointer-events-none absolute bottom-0 left-1/3 h-72 w-72 rounded-full bg-coffee-light/20 blur-3xl" />
 
       <div className="relative mx-auto w-full max-w-7xl px-6 py-20 animate-fade-up">
-        <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-gold/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.2em] text-gold-soft backdrop-blur">
+        <span className="inline-flex items-center gap-2 rounded-full border border-gold bg-gold px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-coffee-dark shadow-warm">
           ✦ Since 2012 · Brewed with love
         </span>
         <h1 className="mt-6 max-w-3xl font-display text-5xl font-bold leading-[1.05] text-white drop-shadow-[0_4px_20px_rgba(0,0,0,0.5)] md:text-7xl">
