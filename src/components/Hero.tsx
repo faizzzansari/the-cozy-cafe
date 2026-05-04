@@ -52,7 +52,7 @@ export function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="mt-16 grid max-w-2xl grid-cols-3 gap-6 border-t border-white/15 pt-8">
+        <div className="mt-16 grid max-w-2xl grid-cols-3 gap-6 border-t  border-white/15 pt-8">
           {[
             { n: "12+", l: "Years brewing" },
             { n: "50K", l: "Happy guests" },
@@ -62,7 +62,7 @@ export function Hero() {
               <div className="font-display text-3xl font-bold text-gold md:text-4xl">
                 {s.n}
               </div>
-              <div className="mt-1 text-xs uppercase tracking-wider text-white/70">
+              <div className="mt-1 text-xs uppercase tracking-wider text-coffee-dark">
                 {s.l}
               </div>
             </div>
